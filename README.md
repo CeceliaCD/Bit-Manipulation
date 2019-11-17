@@ -1,6 +1,7 @@
 # Bit-Manipulation
 
 First: Bit functions (35 Points)
+
 You have to write a program that will read a number followed by a series of bit operations from a file and perform the given operations sequentially on the number. The operations are as follows:
 For example:
 set(x, n, v) sets the nth bit of the number x to v
@@ -27,6 +28,7 @@ $ ./first file1.txt
 
 
 Second: Bit Count functions (35 points)
+
 In this part, you have to determine the parity of a number and the number of 1-bit pairs present in the number. Parity refers to whether a number contains an even or odd number of 1-bits. 1-bit pairs are defined by two adjacent 1’s without overlap with other pairs.
 Number Binary sequence Parity   Number of pairs 
 7      111                 Odd     1
@@ -45,6 +47,7 @@ Odd-Parity    2
 
 
 Third: Bit Pattern function (30 points)
+
 In this part, you have to determine whether a number’s bit representation is a palindrome. A palindrome is defined as a sequence that is the same both forwards and backwards.
 We will be working with unsigned shorts which are 2 bytes or 16 bits. For example the number 384 has the binary sequence 0000000110000000 and is thus a palindrome while the sequence 0100100010111011 is not. Note that all values should be considered 16-bit, so while 5 is 101 in binary and looks like a palindrome, in 16 bits it’d be 0000000000000101, which is not.
 You can and should use the same get(x, n) function that you created in part 1.
