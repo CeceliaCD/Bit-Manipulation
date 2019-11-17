@@ -1,4 +1,4 @@
-OUTPUT=first
+OUTPUT=second
 CFLAGS=-Wall -g -fsanitize=address -std=c99
 LFLAGS=-lm
 
